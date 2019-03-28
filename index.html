@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="container">
+		<h1>Pomodoro Clock</h1>		
+		<section id="settings">
+			<div>
+				<h2>Session</h2>
+				<div class="arrows">
+					<div id="session-down" class="button">&#8897</div>
+					<div id="sessionTimeMinutes">25</div>
+					<div id="session-up" class="button">&#8896</div>
+				</div>
+			</div>
+			<div>
+				<h2>Break</h2>
+				<div class="arrows">
+					<div id="break-down" class="button">&#8897</div>
+					<div id="breakTimeMinutes">5</div>
+					<div id="break-up" class="button">&#8896</div>
+				</div>
+			</div>
+		</section>
+		<section id="main">
+			<div class="arrows">
+				<div id="play" class="button"><i class="material-icons">play_arrow</i></div>
+				<div id="reset" class="button"><i class="material-icons">loop</i></div>
+			</div>
+			<div id="current-period">Session</div>
+			<div id="board">25:00</div>
+			<div class="arrows">
+				<div id="pause" class="button"><i class="material-icons">pause</i></div>
+				<div id="stop" class="button"><i class="material-icons">stop</i></div>
+			</div>
+		</section>
+	</div>
+	<script src="script.js"></script>	
+</body>
+</html>
